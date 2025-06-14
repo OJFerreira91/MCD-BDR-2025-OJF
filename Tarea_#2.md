@@ -26,4 +26,4 @@ flowchart TD
      detalle:::entidad
 
 ```
-
+![Modelo ER](diagrama.png)
