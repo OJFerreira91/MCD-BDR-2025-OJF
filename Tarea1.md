@@ -13,7 +13,6 @@ Los datos de los tipos más comunes de bases de datos en funcionamiento actualme
 Un Sistema de Gestión de Bases de Datos (SGBD) almacena, organiza y gestiona eficazmente los datos. Sin un SGBD, los datos estarían dispersos en varios archivos, lo que dificultaría su localización o actualización. Un SGBD simplifica estas tareas proporcionando un sistema centralizado, que permite a los usuarios añadir, modificar o eliminar datos fácilmente, garantizando al mismo tiempo su exactitud y coherencia[^2].
 
 
-
 ## Descripción de la base de datos (no estructurada)
 
 Mi base de datos representa un sistema de gestión de pedidos de una tienda en línea. Este sistema almacena información sobre los clientes, los productos que ofrece la tienda, los pedidos realizados y el detalle de los productos en cada pedido. A continuación, se describen las entidades involucradas:
@@ -51,7 +50,13 @@ Mi base de datos representa un sistema de gestión de pedidos de una tienda en l
 - Un **cliente** puede realizar varios **pedidos**. (1:N)
 - Un **pedido** puede incluir varios **productos**, y un **producto** puede pertenecer a varios **pedidos**. (N:N, resuelta con la tabla `DetallePedido`)
 
+#### ¿Qué es PostgreSQL? y opción elegida:
 
+PostgreSQL, comúnmente pronunciado "Post-GRES", es una base de datos de código abierto que tiene una sólida reputación por su fiabilidad, flexibilidad y soporte de estándares técnicos abiertos. A diferencia de otros RDMBS (sistemas de gestión de bases de datos relacionales), PostgreSQL (enlace externo a ibm.com) soporta tipos de datos relacionales y no relacionales. Esto la convierte en una de las bases de datos relacionales más compatibles, estables y maduras disponibles actualmente[^3].
+
+Las razones por las que elegí PostgresQL:
+
+"Su diseño versátil y accesible convierte a PostgreSQL en una solución de "talla única" para muchas empresas que buscan formas rentables y eficientes de mejorar sus sistemas de gestión de bases de datos."
 
 #### Referencias:
 
@@ -59,5 +64,7 @@ Mi base de datos representa un sistema de gestión de pedidos de una tienda en l
 
 [^2]:DataCamp. (2023). What is a DBMS? Recuperado de:, de https://www.datacamp.com/es/blog/what-is-a-dbms
 
-[^3]:PostgreSQL Global Development Group. (2024). *PostgreSQL Documentation*. Recuperado de: https://www.postgresql.org/docs/
+[^3]:IBM. (s. f.). PostgreSQL. Recuperado de:, de https://www.ibm.com/mx-es/topics/postgresql
+
+
 
