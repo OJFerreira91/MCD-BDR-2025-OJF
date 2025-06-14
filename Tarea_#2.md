@@ -14,13 +14,16 @@
 
 
 ### Tabla: Producto
-Atributo	Tipo de Dato	Descripción
-id_producto	INT / SERIAL	Clave primaria
-nombre	    VARCHAR(100)	Nombre del producto
-precio	    DECIMAL(10,2)	Precio unitario con 2 decimales
-stock	    INT	            Existencias disponibles
+
+| Atributo             | Tipo de Dato     | Descripción                            |
+|----------------------|------------------|----------------------------------------|
+| id_producto          | INT / SERIAL     | Clave primaria                         |
+| nombre               | VARCHAR(100)     | Nombre del producto                    |
+| precio               | DECIMAL(10,2)    | Precio unitario con 2 decimales        |
+| stock                | INT              | Existencias disponibles                |
 
 ### Tabla: Pedido
+
 Atributo	Tipo de Dato	Descripción
 id_pedido	INT / SERIAL	Clave primaria
 fecha	    DATE	        Fecha del pedido
