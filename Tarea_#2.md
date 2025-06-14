@@ -32,12 +32,14 @@
 | total                | DECIMAL(10,2)    | Total de la compra                     |
 
 ### Tabla: DetallePedido
-Atributo	Tipo de Dato	Descripción
-id_detalle	INT / SERIAL	Clave primaria
-id_pedido	INT	            Clave foránea hacia Pedido
-id_producto	INT	            Clave foránea hacia Producto
-cantidad	INT	            Cantidad comprada del producto
-subtotal	DECIMAL(10,2)	Total parcial (cantidad × precio)
+
+| Atributo             | Tipo de Dato     | Descripción                            |
+|----------------------|------------------|----------------------------------------|
+| id_detalle           | INT / SERIAL     | Clave primaria                         |
+| id_pedido            | DINT             | Clave foránea hacia Pedido             |
+| id_producto          | INT              | Clave foránea hacia Producto           |
+| cantidad             | INT              | Cantidad comprada del producto         |
+| subtotal             | DECIMAL(10,2)    | Total parcial (cantidad × precio)      |
 
 ### Relaciones:
 - Un **cliente** puede realizar varios **pedidos**. (1:N)
