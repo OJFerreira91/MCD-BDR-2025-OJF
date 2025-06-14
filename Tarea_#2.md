@@ -5,7 +5,7 @@
 ```mermaid
 ---
 config:
-  theme: 
+  theme: green
   layout: fixed
 ---
 flowchart TD
