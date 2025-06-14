@@ -10,6 +10,14 @@
 |correo	    |VARCHAR(150)	|Correo electrónico
 |telefono	|VARCHAR(15)	|Número de teléfono (texto libre)
 
+| Atributo             | Tipo de Dato     | Descripción                            |
+|----------------------|------------------|----------------------------------------|
+| id_cliente           | INT / SERIAL     | Clave primaria, autoincremental        |
+| nombre               | VARCHAR(100)     | Nombre del cliente                     |
+| correo               | VARCHAR(150)     | orreo electrónico                      |
+| telefono              | VARCHAR(15)     | Número de teléfono (texto libre)       |
+
+
 ### Tabla: Producto
 Atributo	Tipo de Dato	Descripción
 id_producto	INT / SERIAL	Clave primaria
@@ -38,3 +46,5 @@ subtotal	DECIMAL(10,2)	Total parcial (cantidad × precio)
 
 ### Modelo E-R
 ![Modelo ER](diagrama.png)
+
+
