@@ -5,7 +5,7 @@
 ```mermaid
 ---
 config:
-  theme: redux
+  theme: 
   layout: fixed
 ---
 flowchart TD
