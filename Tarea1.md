@@ -10,6 +10,9 @@ Los datos de los tipos más comunes de bases de datos en funcionamiento actualme
 
 ## Definición de SGBD
 
+Un Sistema de Gestión de Bases de Datos (SGBD) almacena, organiza y gestiona eficazmente los datos. Sin un SGBD, los datos estarían dispersos en varios archivos, lo que dificultaría su localización o actualización. Un SGBD simplifica estas tareas proporcionando un sistema centralizado, que permite a los usuarios añadir, modificar o eliminar datos fácilmente, garantizando al mismo tiempo su exactitud y coherencia[^2].
+
+
 
 ## Descripción de la base de datos (no estructurada)
 
@@ -54,7 +57,7 @@ Mi base de datos representa un sistema de gestión de pedidos de una tienda en l
 
 [^1]: Oracle. (s.f.). *¿Qué es una base de datos?* Recuperado de: [https://www.oracle.com/mx/database/what-is-database](https://www.oracle.com/mx/database/what-is-database)
 
-[^2]:
+[^2]:DataCamp. (2023). What is a DBMS? Recuperado de:, de https://www.datacamp.com/es/blog/what-is-a-dbms
 
 [^3]:PostgreSQL Global Development Group. (2024). *PostgreSQL Documentation*. Recuperado de: https://www.postgresql.org/docs/
 
