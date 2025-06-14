@@ -24,11 +24,12 @@
 
 ### Tabla: Pedido
 
-Atributo	Tipo de Dato	Descripción
-id_pedido	INT / SERIAL	Clave primaria
-fecha	    DATE	        Fecha del pedido
-id_cliente	INT	            Clave foránea hacia Cliente
-total	    DECIMAL(10,2)	Total de la compra
+| Atributo             | Tipo de Dato     | Descripción                            |
+|----------------------|------------------|----------------------------------------|
+| id_pedido            | INT / SERIAL     | Clave primaria                         |
+| fecha                | DATE             | Fecha del pedido                       |
+| id_cliente           | INT              | Clave foránea hacia Cliente            |
+| total                | DECIMAL(10,2)    | Total de la compra                     |
 
 ### Tabla: DetallePedido
 Atributo	Tipo de Dato	Descripción
