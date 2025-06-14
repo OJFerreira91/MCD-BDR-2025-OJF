@@ -36,5 +36,5 @@ subtotal	DECIMAL(10,2)	Total parcial (cantidad × precio)
 - Un **cliente** puede realizar varios **pedidos**. (1:N)
 - Un **pedido** puede incluir varios **productos**, y un **producto** puede pertenecer a varios **pedidos**. (N:N, resuelta con la tabla `DetallePedido`)
 
-
+### Modelo E-R
 ![Modelo ER](diagrama.png)
