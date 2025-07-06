@@ -58,3 +58,5 @@ DETALLE_PEDIDO actúa como entidad débil que une PEDIDO y PRODUCTO mediante cla
 ## DIAGRAMA RELACIONAL
 ![Modelo ER](diagrama tarea 3.png)
 
+
+
