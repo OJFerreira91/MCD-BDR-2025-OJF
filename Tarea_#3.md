@@ -62,5 +62,12 @@ DETALLE_PEDIDO actúa como entidad débil que une PEDIDO y PRODUCTO mediante cla
 
 ### OPERACIONES
 
+| Tipo de Operación | Expresión en Álgebra Relacional | Descripción          |
+|-------------------|---------------------------------|----------------------|
+| Selección         | σ id_cliente = 5 (PEDIDO)       | Obtiene todos los pedidos realizados por el cliente con ID 5              |
+| Proyección        | π nombre (PRODUCTO)             | Muestra solo los nombres de los productos sin duplicados                |
+| Unión             | π id_producto (σ id_pedido = 101 (DETALLE_PEDIDO)) ⋃  |
+|                   | π id_producto (σ id_pedido = 102 (DETALLE_PEDIDO))     | Une los productos de dos pedidos distintos                                 |
+| Join (Natural)    | CLIENTE ⨝ PEDIDO               | Combina cliente con sus pedidos mediante el atributo común `id_cliente`   |
 
 
