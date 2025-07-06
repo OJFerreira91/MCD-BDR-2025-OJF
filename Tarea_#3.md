@@ -55,8 +55,12 @@ y un producto puede estar en muchos pedidos
 
 DETALLE_PEDIDO actúa como entidad débil que une PEDIDO y PRODUCTO mediante claves foráneas.
 
-## DIAGRAMA RELACIONAL
-![Modelo ER](diagrama tarea 3.png)
+### DIAGRAMA RELACIONAL
+
+![Diagrama ER Tarea 3](diagrama_tarea3.png)
+
+
+### OPERACIONES
 
 
 
