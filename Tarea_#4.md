@@ -28,7 +28,7 @@ El codigo se hizo en  SQL Server de la empresa donde trabajo
 
 ---
 
-## 📦 Script de creación e inserción de datos
+## Script de creación e inserción de datos
 
 ```sql
 -- Usar la base de datos
@@ -109,5 +109,11 @@ INSERT INTO A1_detalle_pedido (id_pedido, id_producto, cantidad, subtotal) VALUE
 (3, 2, 1, 250.00);
 GO
 
+--- Revisando los valores de las tablas
+
+SELECT TOP 10 * FROM A1_cliente;
+SELECT TOP 10 * FROM A1_producto;
+SELECT TOP 10 * FROM A1_pedido;
+SELECT TOP 10 * FROM A1_detalle_pedido;
 
 ```
