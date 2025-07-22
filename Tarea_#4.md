@@ -6,7 +6,7 @@
 
 El codigo se hizo en  SQL Server de la empresa donde trabajo
 
-## 🗂 Nombre de la base de datos
+## Nombre de la base de datos
 **biAla**
 
 ---
