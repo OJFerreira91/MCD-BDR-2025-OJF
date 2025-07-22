@@ -71,3 +71,4 @@ DETALLE_PEDIDO actúa como entidad débil que une PEDIDO y PRODUCTO mediante cla
 | Join (Natural)    | CLIENTE ⨝ PEDIDO               | Combina cliente con sus pedidos mediante el atributo común `id_cliente`   |
 
 
+
