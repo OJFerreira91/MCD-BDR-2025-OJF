@@ -27,3 +27,5 @@ Durante esta tarea utilicé la plataforma [Mockaroo](https://mockaroo.com/) para
 - Generar por separado los datos de tablas hijas para evitar FK inválidas.
 - El preview de la pagina ayuda a ver los datos que generara, esto te da una idea si lo bajas con formato SQL que puedes cambiar antes de correr en SQL.
 - En general es una buena herramienta para crear datos de manera rápida y aleatoria, pero siempre deberá considerarse las relaciones a otras tablas que se quieran hacer. Lo recomendable es crear llaves primarias fáciles de duplicar en las otras tablas, esto para poder hacer joins de tablas.
+
+
